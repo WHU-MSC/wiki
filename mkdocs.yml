@@ -1,0 +1,97 @@
+site_name: WHUMSC Wiki
+repo_name: whu-msc/wiki
+repo_url: https://github.com/whu-msc/wiki
+edit_uri: edit/main/docs/
+copyright: By WHU-MSC. Under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>.
+
+
+theme:
+  name: material
+  logo: assets/whumsc-wiki-logo.png
+  icon:
+    repo: fontawesome/brands/git-alt
+  favicon: images/favicon.png
+  language: zh
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.tabs
+  palette: 
+    # light mode
+    - scheme: primary
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+
+extra:
+  social:
+
+
+nav:
+  - 主页: 
+    - 简介: index.md
+    - 参与指南: mainpage/contribution-guide.md
+    - 2022招新:
+      - 招新简章: mainpage/recruiting/brief-intro.md
+      - 招新要求: mainpage/recruiting/assignment.md
+
+  - 技术相关:
+    - 初学者指南:
+      - CS自学指南: tech/beginners-guide/teach-yourself-cs.md
+      - 提问的智慧: tech/beginners-guide/how-to-ask-questions-the-smart-way.md
+    - 奇思妙想: tech/f__kingfancythoughts.md
+  - 珞珈山生存指南: survivewhu/survive-whu.md
+
+
+plugins:
+  - search:
+      lang:
+        - en
+        - ja
+
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - admonition
+  - toc:
+      slugify: !!python/name:pymdownx.slugs.uslugify
+  
+
+extra_css:
+  - stylesheets/extra.css
+
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

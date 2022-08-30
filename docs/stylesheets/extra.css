@@ -1,0 +1,35 @@
+[data-md-color-scheme="primary"] {
+    --md-primary-fg-color:        #145896;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:        #145896;
+}
+
+.md-typeset img, .md-typeset svg {
+    vertical-align: middle;
+}
+
+del {
+    background-position: 0;
+    background-color: var(--md-typeset-color);
+    color: transparent;
+    padding: 0.1em 0;
+    position: relative;
+    text-decoration: none;
+}
+  
+del * {
+    opacity: 0;
+}
+  
+del:hover {
+    transition: color 0.17s linear;
+    color: var(--md-default-bg-color);
+}
+  
+del:hover * {
+    transition: opacity 0.17s linear;
+    opacity: inherit;
+}
+  
