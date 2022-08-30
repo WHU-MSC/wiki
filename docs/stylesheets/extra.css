@@ -1,10 +1,15 @@
 [data-md-color-scheme="primary"] {
     --md-primary-fg-color:        #145896;
+    --md-primary-fg-color--light: #145490d0;
+    --md-primary-fg-color--dark:  #0e4c85;
 }
 
 [data-md-color-scheme="slate"] {
     --md-primary-fg-color:        #145896;
+    --md-primary-fg-color--light: #145490d0;
+    --md-primary-fg-color--dark:  #0e4c85;
 }
+
 
 .md-typeset img, .md-typeset svg {
     vertical-align: middle;

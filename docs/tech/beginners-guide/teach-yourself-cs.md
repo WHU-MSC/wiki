@@ -1,5 +1,7 @@
 # 自学计算机科学
 
+[转载]
+
 > 除本文外，[csdiy.wiki](https://csdiy.wiki) 也是一个奇妙的网站。
 >
 > 本文档是对 [TeachYourselfCS](https://teachyourselfcs.com) 内容的中文翻译，原作者为 [Ozan Onay](https://twitter.com/oznova_) 和 [Myles Byrne](https://twitter.com/quackingduck)。如需了解翻译相关信息或帮助改进翻译，请参见 [本文档结尾](#这份指引是谁翻译的)。

@@ -50,6 +50,8 @@ nav:
     - 初学者指南:
       - CS自学指南: tech/beginners-guide/teach-yourself-cs.md
       - 提问的智慧: tech/beginners-guide/how-to-ask-questions-the-smart-way.md
+      - 认识这个世界: tech/beginners-guide/welcome-to-cs-world.md
+      - GPG 简介: tech/beginners-guide/gpg-brief-introduction.md
     - 奇思妙想: tech/f__kingfancythoughts.md
   - 珞珈山生存指南: survivewhu/survive-whu.md
 

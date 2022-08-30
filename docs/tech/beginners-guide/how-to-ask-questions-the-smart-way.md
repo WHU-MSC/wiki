@@ -1,6 +1,8 @@
 # 提问的智慧
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pulls)
 
+[转载]
+
 ## 一些说明
 
 > 本节内容均为 Nowhereman 的观点，与原作者无关。
