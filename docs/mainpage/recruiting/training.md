@@ -7,7 +7,9 @@
 
 ## 细则
 简言之，你所需要完成的任务是：
-在指定 git 平台中注册帐号（填写无真实性要求的邮箱等个人信息），Fork 指定仓库，在其中随便添加一个文件，但需要使用你自己的 GPG 密钥进行签名，然后向上游提交 PR.
+在[指定 git 平台](git.whumsc.wiki)中注册帐号（填写无真实性要求的邮箱等个人信息），Fork [指定仓库](https://git.whumsc.wiki/WHU-MSC/PR-playground)，在其中随便添加一个文件，但需要使用你自己的 GPG 密钥进行签名，然后向上游提交 PR.
+
+可以参考 [GPG 简介](../../tech/beginners-guide/gpg-brief-introduction.md) 和 [Github 简介](../../tech/beginners-guide/github-brief-introduction.md).
 
 ### 创建密钥对
 你需要创建 GPG 的密钥对用于对 commit 进行签名（如果你本来就有，那当然不用创建）。

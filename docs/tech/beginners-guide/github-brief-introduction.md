@@ -81,5 +81,24 @@ push 命令格式为 `git push [remote] [branch]`，可以额外添加参数，�
 
 当远程仓库的地址设置为类似 `git@github.com:testuser/testrepo` 的格式时，无需验证帐号密码。
 
-#### 设置过程的图文描述
+在如图所示的地方可以获得该模式的仓库地址
 
+![ssh_link](../../resource/github-brief-introduction/ssh_link.jpg)
+
+#### 设置过程的图文描述
+进入 github 主页，点击右上角的头像，会出现菜单栏，点击其中的 settings 进入设置；
+
+在设置页面中，最左侧有一个菜单栏，点击 SSH and GPG keys，进入密钥设置。
+
+![options](../../resource/github-brief-introduction/github-options-1.png)
+
+点击 New SSH key，SSH 密钥在此处即可添加，一般用于登录验证，故选择类型为 authentication key。
+
+![options](../../resource/github-brief-introduction/github-options-2.png)
+
+### 为 commit 签名
+[GPG](../gpg-brief-introduction)那一章提到，GPG 密钥具有签名功能，我们当然可以使用 GPG 密钥来对 commit 进行签名，来证明“确实是我自己”进行了这个提交。
+
+将你的 GPG **公钥** 上传到 github 中你的帐号下（方法跟上文 SSH key 完全相同）之后，你的私钥签名后的 commit，将在 github 上显示一个 "Verified" 标签。
+
+如果手上没有你的私钥，那显然是不能签名的（可以用其他私钥签名，但是由于其公钥没有上传到你的 github 帐号下，所以不被认为是你签的名）。
