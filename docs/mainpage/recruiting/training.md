@@ -1,5 +1,10 @@
 # 2022 WHU-MSC 新手任务
 
+## 开始之前
+强烈建议先阅读 [提问的智慧](../../tech/beginners-guide/how-to-ask-questions-the-smart-way.md) 和 [认识这个世界](../../tech/beginners-guide/welcome-to-cs-world.md).
+
+跟新手任务有直接关联的内容，有 [GPG 简介](../../tech/beginners-guide/gpg-brief-introduction.md) 和 [Github 简介](../../tech/beginners-guide/github-brief-introduction.md).
+
 ## 概述
 - [ ] 了解 PGP
 - [ ] 学会使用 git
