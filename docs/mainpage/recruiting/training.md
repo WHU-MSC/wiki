@@ -1,6 +1,9 @@
 # 2022 WHU-MSC 新手任务
 
 ## 开始之前
+
+截止时间：2023-3-31 23:59:59
+
 强烈建议先阅读 [提问的智慧](../../tech/beginners-guide/how-to-ask-questions-the-smart-way.md) 和 [认识这个世界](../../tech/beginners-guide/welcome-to-cs-world.md).
 
 跟新手任务有直接关联的内容，有 [GPG 简介](../../tech/beginners-guide/gpg-brief-introduction.md) 和 [Github 简介](../../tech/beginners-guide/github-brief-introduction.md).
@@ -35,5 +38,3 @@
 你需要向上游发起 Pull Request.
 
 如果你所提交的内容基本符合要求，你的 PR 将会被接收，恭喜你完成了新手任务！
-
-
