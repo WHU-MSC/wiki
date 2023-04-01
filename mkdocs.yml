@@ -42,7 +42,12 @@ nav:
   - 主页: 
     - 简介: index.md
     - 参与指南: mainpage/contribution-guide.md
-
+    
+  - 社团活动:
+    - 技术沙龙: 
+      - 检索增强: activity/technology-salon/search-enhancement.md
+    - Hackathon: activity/Hackathon/Hackathon.md
+    
   - 技术相关:
     - 初学者指南:
       - CS自学指南: tech/beginners-guide/teach-yourself-cs.md
@@ -51,6 +56,7 @@ nav:
       - GPG 简介: tech/beginners-guide/gpg-brief-introduction.md
       - github 简介: tech/beginners-guide/github-brief-introduction.md
     - 奇思妙想: tech/f__kingfancythoughts.md
+    
   - 珞珈山生存指南: survivewhu/survive-whu.md
 
 

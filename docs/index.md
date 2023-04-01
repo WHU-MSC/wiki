@@ -12,5 +12,4 @@
 
 ## 联系我们
 
-- QQ群： 851787170
-- Telegram 频道: [![https://t.me/whumsc](https://img.shields.io/badge/TG-WHU--MSC-blue?style=flat-square&logo=telegram)](https://t.me/whumsc)
+- QQ群：851787170
