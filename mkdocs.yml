@@ -1,4 +1,4 @@
-site_name: WHUMSC Wiki
+site_name: 武汉大学微软学生俱乐部
 repo_name: whu-msc/wiki
 repo_url: https://github.com/whu-msc/wiki
 edit_uri: edit/main/docs/
@@ -7,10 +7,10 @@ copyright: By WHU-MSC. Under the <a href="https://creativecommons.org/licenses/b
 
 theme:
   name: material
-  logo: assets/whumsc-wiki-logo.png
+  logo: assets/msc.webp
   icon:
     repo: fontawesome/brands/git-alt
-  favicon: images/favicon.png
+  favicon: img/favicon.ico
   language: zh
   features:
     - search.suggest
@@ -41,12 +41,12 @@ extra:
 nav:
   - 主页: 
     - 简介: index.md
-    - 参与指南: mainpage/contribution-guide.md
-    
-  - 社团活动:
-    - 技术沙龙: 
-      - 检索增强: activity/technology-salon/search-enhancement.md
-    - Hackathon: activity/Hackathon/Hackathon.md
+    - 2023年招新:
+      - 社团活动一览: mainpage/recruiting2023/list-of-club-activities.md
+      - 招新简章: mainpage/recruiting2023/introduction-to-recruitment.md
+      - 笔试题目: mainpage/recruiting2023/written-test.md
+      - 笔试题目参考文档: mainpage/recruiting2023/written-test-reference.md
+      - Git 参考文档: mainpage/recruiting2023/git-reference.md
     
   - 技术相关:
     - 初学者指南:
