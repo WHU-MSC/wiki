@@ -46,22 +46,25 @@ hello 程序的生命周期是从一个高级 C 语言程序开始的，因为�
 
 ### 配置 C/C++ 编译器
 
-1. [点击下载 MinGW 离线包](https://wwlx.lanzoul.com/iS4Ed110g1qb)，密码是”msc“。
+1. [点击下载 MinGW 离线包](https://share.weiyun.com/lMbIqA3k)。
 2. 将刚才下载的压缩包解压到你想要安装 C/C++ 编译器的地方。如遇无法解压 .7z 文件，强烈建议将解压缩软件更换为 [7-Zip](https://www.7-zip.org/) 或者 [Bandizip](https://www.bandisoft.com/bandizip/)。
 3. 系统环境变量添加MinGW64 bin路径。按键盘上的 Win 键，输入”环境变量“，点击”编辑系统环境变量“，然后按照下图操作。
 
 ![image-20230702045254696](http://static.immengzi.wiki/typora/image-20230702045254696.png)
 
 <img src="http://static.immengzi.wiki/typora/image-20230702045712752.png" width="50%" /><img src="http://static.immengzi.wiki/typora/image-20230702045922448.png" width="50%" />
-![image-20230702045808944](http://static.immengzi.wiki/typora/image-20230702045808944.png)
-<img src="http://static.immengzi.wiki/typora/image-20230702045922448.png" width="50%" /><img src="http://static.immengzi.wiki/typora/image-20230702050033223.png" width="50%" />
+
+![image-20230706122357865](http://static.immengzi.wiki/typora/image-20230706122357865.png)
+
+<img src="http://static.immengzi.wiki/typora/image-20230702045922448.png" width="50%" /><img src="http://static.immengzi.wiki/typora/image-20230706122455310.png" width="50%" />
+
 4. **验证是否配置成功** ：按键盘上的 Win 键，输入”cmd“，回车，在命令提示符窗口输入”gcc -v“，若返回包含版本号的一大串信息，说明配置成功。
 
 ### 命令行编译 C/C++
 
 - 编译 C 文件：`gcc filename.c -o output`
 - 编译 C++ 文件：`g++ filename.cpp -o output`
-- 运行可执行文件：`./output`
+- 运行可执行文件：`output.exe`
 
 ### 遇到问题及时求助
 
