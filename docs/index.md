@@ -12,5 +12,5 @@
 
 ## 招新群 2023
 
-- QQ群：826491181<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=OR0sCU9sbf8DC5SwE1rH7m6TnYN8DR9Z&jump_from=webapi&authKey=icB6mSzl1Y8K7SHXkPRIQu8iifQwOUUbIvB/I+BcDBnbtNGHzANBGp3tknunBDic"><img border="0" src="E:\gitkarten\wiki\docs\index\group.png" alt="MSC2023招新群" title="MSC2023招新群"></a>
+- QQ群：826491181 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=OR0sCU9sbf8DC5SwE1rH7m6TnYN8DR9Z&jump_from=webapi&authKey=icB6mSzl1Y8K7SHXkPRIQu8iifQwOUUbIvB/I+BcDBnbtNGHzANBGp3tknunBDic"><img border="0" src="http://static.immengzi.wiki/typora/group.png" alt="MSC2023招新群" title="MSC2023招新群"></a>
 

@@ -52,12 +52,11 @@ hello 程序的生命周期是从一个高级 C 语言程序开始的，因为�
 
 ![image-20230702045254696](http://static.immengzi.wiki/typora/image-20230702045254696.png)
 
-<img src="http://static.immengzi.wiki/typora/image-20230702045712752.png" width="50%" /><img src="http://static.immengzi.wiki/typora/image-20230702045922448.png" width="50%" />
+<img src="http://static.immengzi.wiki/typora/image-20230702045712752.png" width="49%" /> <img src="http://static.immengzi.wiki/typora/image-20230702045922448.png" width="49%" />
 
 ![image-20230706122357865](http://static.immengzi.wiki/typora/image-20230706122357865.png)
 
-<img src="http://static.immengzi.wiki/typora/image-20230702045922448.png" width="50%" /><img src="http://static.immengzi.wiki/typora/image-20230706122455310.png" width="50%" />
-
+<img src="http://static.immengzi.wiki/typora/image-20230702045922448.png" width="49%" /> <img src="http://static.immengzi.wiki/typora/image-20230706122455310.png" width="49%" />
 4. **验证是否配置成功** ：按键盘上的 Win 键，输入”cmd“，回车，在命令提示符窗口输入”gcc -v“，若返回包含版本号的一大串信息，说明配置成功。
 
 ### 命令行编译 C/C++
