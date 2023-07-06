@@ -8,7 +8,7 @@ GitHub 则是一个基于 Git 的线上服务平台，它不仅提供 Git 版本
 
 以下我们会用比较正式的 Refer 语言教会你一些基本的 Git 知识。
 
-同时，如果你觉得本教程有难度，可以也了解更加接地气的：[WHUCAO Git Refer](https://whucodingandopen.github.io/whucao/) 版本。
+同时，如果你觉得本教程有难度，可以也了解更加接地气的：[WHUCAO Git Refer](https://whucodingandopen.github.io/whucao/tech/git.html) 版本。
 
 # 2. Git 的安装
 
@@ -20,7 +20,7 @@ GitHub 则是一个基于 Git 的线上服务平台，它不仅提供 Git 版本
 
 除以上说明外，其余你均可以选择 **默认选项**。
 
-# 3. Git的基本操作
+# 3. Git 的基本操作
 
 假设我们在 D 盘的 `testGit` 文件夹中。
 
@@ -71,7 +71,7 @@ Initialized empty Git repository in D:/testGit/.git/
 
 值得注意的是，黄色字段是说明提示，并非报错，大意是提示你默认的分支名是 master，你可以通过他提及的命令修改默认分支名。
 
-# 3.2 Git基本操作
+# 3.2 Git 基本操作
 
 本节我们会说明如何让 Git 追踪某个文件
 

@@ -8,6 +8,8 @@
 
 尽管微软学生俱乐部是一个技术社团，我们仍然欢迎各个专业的同学加入和活跃。通过跨学科交流，社员可以走出相对封闭的个人思考模式，接触到不同的词汇和观点，跨越学科界线，迸发出灵感的火花。
 
+点击加入社团招新群：<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=OR0sCU9sbf8DC5SwE1rH7m6TnYN8DR9Z&jump_from=webapi&authKey=icB6mSzl1Y8K7SHXkPRIQu8iifQwOUUbIvB/I+BcDBnbtNGHzANBGp3tknunBDic"><img border="0" src="E:\gitkarten\wiki\docs\mainpage\recruiting2023\introduction-to-recruitment\group.png" alt="MSC2023招新群" title="MSC2023招新群"></a>
+
 ## 对新社员的期望
 
 具有一定信息收集和获取能力，对于陌生事物的学习能力和实际动手能力。
