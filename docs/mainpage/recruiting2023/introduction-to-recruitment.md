@@ -12,7 +12,7 @@
 
 具有一定信息收集和获取能力，对于陌生事物的学习能力和实际动手能力。
 
-尽管具有一定的计算机素养会使你更加轻松地完成任务，但是你随时可以使用搜索引擎去了解你不知道的知识。我们也欢迎你在 **招新 QQ 群** <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=OR0sCU9sbf8DC5SwE1rH7m6TnYN8DR9Z&jump_from=webapi&authKey=icB6mSzl1Y8K7SHXkPRIQu8iifQwOUUbIvB/I+BcDBnbtNGHzANBGp3tknunBDic"><img border="0" src="http://static.immengzi.wiki/typora/group.png" alt="MSC2023招新群" title="MSC2023招新群"></a> 进行提问，提问内容包括但不限于题目本身、题目解法、校园生活等。
+尽管具有一定的计算机素养会使你更加轻松地完成任务，但是你随时可以使用搜索引擎去了解你不知道的知识。我们也欢迎你在 **招新 QQ 群** <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=OR0sCU9sbf8DC5SwE1rH7m6TnYN8DR9Z&jump_from=webapi&authKey=icB6mSzl1Y8K7SHXkPRIQu8iifQwOUUbIvB/I+BcDBnbtNGHzANBGp3tknunBDic"><img border="0" src="../img/group.png" alt="MSC2023招新群" title="MSC2023招新群"></a> 进行提问，提问内容包括但不限于题目本身、题目解法、校园生活等。
 
 ## 招新流程
 

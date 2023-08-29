@@ -14,13 +14,13 @@
 
 社团会不定期举办技术沙龙，用于促进技术知识的分享、讨论和学习。选取的主题包括但不限于传统计算机技术和当下热门技术。比如下面这场技术沙龙，它的主题是 [检索增强——让大模型学会“查资料“](https://mp.weixin.qq.com/s/CpEackcld4ODlSbRtVW80g)。
 
-<img src="http://static.immengzi.wiki/typora/IMG_6772.jpg" width="49%" /><img src="http://static.immengzi.wiki/typora/image-20230623224913124.png" width="49%" />
+<img src="../img/IMG_6772.jpg" width="49%" /><img src="../img/image-20230623224913124.png" width="49%" />
 
 ## 聚餐&分享会
 
 社团常有大大小小的聚餐活动，以此来加深彼此之间的了解，线下的环境也使得我们的交流更加自由放松。期间，会有学长学姐分享一些竞赛/科研/选课经验——这似乎已经成为了社团的传统。下图是一张今年 3 月份拍的大合照。
 
-<img src="http://static.immengzi.wiki/typora/IMG_6557.JPG" width="49%" />
+<img src="../img/IMG_6557.JPG" width="49%" />
 
 ## 社员培训
 

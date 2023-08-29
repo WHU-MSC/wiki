@@ -40,7 +40,7 @@ int main()
 
 hello 程序的生命周期是从一个高级 C 语言程序开始的，因为这种形式能够被人读懂。然而，为了在系统上运行 hello.c 程序，每条 C 语句都必须被其他程序转化为一系列的低级 **机器语言** 指令。然后这些指令按照一种称为 **可执行目标程序** 的格式打好包，并以二进制磁盘文件的形式存放起来。目标程序也称为 **可执行目标文件**。
 
-![img](http://static.immengzi.wiki/typora/compilation-systems.png)
+![img](../img/compilation-systems.png)
 
 在这里，GCC 编译器驱动程序读取源程序文件 hello.c，并把它翻译成一个可执行目标文件 hello。这个翻译过程可分为四个阶段完成，如图所示。执行这四个阶段的程序（**预处理器**、**编译器**、**汇编器** 和 **链接器**）一起构成了 **编译系统**（compilation system）。
 
@@ -50,13 +50,14 @@ hello 程序的生命周期是从一个高级 C 语言程序开始的，因为�
 2. 将刚才下载的压缩包解压到你想要安装 C/C++ 编译器的地方。如遇无法解压 .7z 文件，强烈建议将解压缩软件更换为 [7-Zip](https://www.7-zip.org/) 或者 [Bandizip](https://www.bandisoft.com/bandizip/)。
 3. 系统环境变量添加MinGW64 bin路径。按键盘上的 Win 键，输入”环境变量“，点击”编辑系统环境变量“，然后按照下图操作。
 
-![image-20230702045254696](http://static.immengzi.wiki/typora/image-20230702045254696.png)
+![image-20230702045254696](../img/image-20230702045254696.png)
 
-<img src="http://static.immengzi.wiki/typora/image-20230702045712752.png" width="49%" /> <img src="http://static.immengzi.wiki/typora/image-20230702045922448.png" width="49%" />
+<img src="../img/image-20230702045712752.png" width="49%" /> <img src="../img/image-20230702045922448.png" width="49%" />
 
-![image-20230706122357865](http://static.immengzi.wiki/typora/image-20230706122357865.png)
+![image-20230706122357865](../img/image-20230706122357865.png)
 
-<img src="http://static.immengzi.wiki/typora/image-20230702045922448.png" width="49%" /> <img src="http://static.immengzi.wiki/typora/image-20230706122455310.png" width="49%" />
+<img src="../img/image-20230702045922448.png" width="49%" /> <img src="../img/image-20230706122455310.png" width="49%" />
+
 4. **验证是否配置成功** ：按键盘上的 Win 键，输入”cmd“，回车，在命令提示符窗口输入”gcc -v“，若返回包含版本号的一大串信息，说明配置成功。
 
 ### 命令行编译 C/C++
