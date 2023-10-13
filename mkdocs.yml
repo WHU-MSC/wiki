@@ -41,16 +41,11 @@ extra:
 nav:
   - 主页: 
     - 简介: index.md
-    - 2023年招新:
-      - 社团活动一览: mainpage/recruiting2023/list-of-club-activities.md
-      - 招新简章: mainpage/recruiting2023/introduction-to-recruitment.md
-      - 笔试题目: mainpage/recruiting2023/written-test.md
-      - 笔试题目参考文档: mainpage/recruiting2023/written-test-reference.md
-      - Git 参考文档: mainpage/recruiting2023/git-reference.md
     
   - 技术相关:
     - 初学者指南:
-      - CS自学指南: tech/beginners-guide/teach-yourself-cs.md
+      - CS 自学指南: tech/beginners-guide/teach-yourself-cs.md
+      - 提问的智慧[极速版]: tech/beginners-guide/how-to-ask-questions-the-smart-way-extreme-version.md
       - 提问的智慧: tech/beginners-guide/how-to-ask-questions-the-smart-way.md
       - 认识这个世界: tech/beginners-guide/welcome-to-cs-world.md
       - GPG 简介: tech/beginners-guide/gpg-brief-introduction.md
