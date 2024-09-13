@@ -1,0 +1,7 @@
+# MSC 2024 招新
+
+武汉大学微软学生俱乐部 2024 年招新现已启动！
+
+社团招新推文：查看[微信公众号](https://mp.weixin.qq.com/s?__biz=MjM5MTYwMDM2NQ==&mid=2650079895&idx=1&sn=305ccaba200415daa2cbed61e7fd71cf&chksm=bfce6777ee2c0f6bd8f9a5252845da120d6a55c7c0951d848c915d130198038fcd755b56f5d5&xtrack=1&scene=0&subscene=244&sessionid=1726207894&clicktime=1726207902&enterid=1726207902&ascene=7&fasttmpl_type=0&fasttmpl_fullversion=7380712-zh_CN-zip&fasttmpl_flag=0&realreporttime=1726207902469&devicetype=android-33&version=2800315a&nettype=ctnet&lang=zh_CN&session_us=gh_20ad8d0b4c25&countrycode=CN&exportkey=n_ChQIAhIQaHEfum%2FKjVqo1FA9Ymh6TxLxAQIE97dBBAEAAAAAAJ7VK0IQ%2BJcAAAAOpnltbLcz9gKNyK89dVj0mpHlhL%2FfHvbNJDAkyZz%2FukczzUmutfvtndq%2BF1QZjQScCfO2SOgu5Slnw1nKo5VuWWCPkE%2BgrfSuVzyAzfjjJdQaebTVuOYlZzZxY50D5dFvbhNV5qVy8eZCjqki0XrMXhcqxlalFui6669TIzjSQFc3tbxfGkzjs4FULHRncosdBsPHQ1Hojf%2BRHML%2FY%2FSCvMhBVi9zBjUlz6xqb8TcNM8V%2B8oVo4M%2ByXdGCY1BzNEP8e370FoHJHjfYoLAuv%2FCSg1lzEeCChPP4dw%3D&pass_ticket=11Oraza3nTTBePcapX21lp7Z7bcVgDtCawqN1oCKFurVU773Lum4HAdVpyRSZ3Rx&wx_header=3)
+
+如果你对我们社团有兴趣，可以加入招新 QQ 群了解详情：[680316048](https://qm.qq.com/q/HX6Ogdnb46)

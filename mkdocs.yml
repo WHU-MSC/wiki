@@ -41,6 +41,12 @@ extra:
 nav:
   - 主页: 
     - 简介: index.md
+
+  - 招新:
+    - 2024年:
+      - 欢迎: recruit/2024/index.md
+      - 理论题: recruit/2024/theory.md
+      - 实践题: recruit/2024/practice.md
     
   - 技术相关:
     - 初学者指南:
