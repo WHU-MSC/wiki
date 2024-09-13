@@ -1,0 +1,1091 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>1. Git & Github - 武汉大学微软学生俱乐部</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="primary" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-git--github" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="武汉大学微软学生俱乐部" class="md-header__button md-logo" aria-label="武汉大学微软学生俱乐部" data-md-component="logo">
+      
+  <img src="../../../assets/msc.webp" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            武汉大学微软学生俱乐部
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              1. Git &amp; Github
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="primary" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/whu-msc/wiki" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    whu-msc/wiki
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">
+          
+  
+  主页
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../recruit/2024/" class="md-tabs__link">
+          
+  
+  招新
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../tech/beginners-guide/teach-yourself-cs/" class="md-tabs__link">
+          
+  
+  技术相关
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../survivewhu/survive-whu/" class="md-tabs__link">
+        
+  
+    
+  
+  珞珈山生存指南
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="武汉大学微软学生俱乐部" class="md-nav__button md-logo" aria-label="武汉大学微软学生俱乐部" data-md-component="logo">
+      
+  <img src="../../../assets/msc.webp" alt="logo">
+
+    </a>
+    武汉大学微软学生俱乐部
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/whu-msc/wiki" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    whu-msc/wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    主页
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            主页
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    简介
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    招新
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            招新
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2024年
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            2024年
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recruit/2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    欢迎
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recruit/2024/theory/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    理论题
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../recruit/2024/practice/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    实践题
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    技术相关
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            技术相关
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    初学者指南
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            初学者指南
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/beginners-guide/teach-yourself-cs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CS 自学指南
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/beginners-guide/how-to-ask-questions-the-smart-way-extreme-version/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    提问的智慧[极速版]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/beginners-guide/how-to-ask-questions-the-smart-way/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    提问的智慧
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/beginners-guide/welcome-to-cs-world/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    认识这个世界
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/beginners-guide/gpg-brief-introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GPG 简介
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/beginners-guide/github-brief-introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    github 简介
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/f__kingfancythoughts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    奇思妙想
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../survivewhu/survive-whu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    珞珈山生存指南
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="1-git--github">1. Git &amp; Github</h1>
+<p>Git 是一个分布式版本控制系统，可以高效地处理项目的版本管理。换句话说，它能跟踪和记录一个或多个文件的内容变化，让你可以在任何时候回到特定的版本。</p>
+<p>GitHub 则是一个基于 Git 的线上服务平台，它不仅提供 Git 版本库的托管服务，还提供了一些额外的功能，比如协作功能、任务管理、bug 跟踪等。另外，GitHub 也是一个开源社区，许多优秀的开源项目都托管在上面。</p>
+<p>在现实生活中，我们常常会在不同的方面用到他们。对于 Git ，我们会使用他去跟踪我们的项目版本，以记录我们的增删改。在小组合作中，我们也往往会使用 Git 来对我们的项目进行版本管理，并且通过推送到 GitHub 这一个线上服务平台来在组内共享代码。同时， GitHub 上面有很多开源的项目，我们可以借鉴，可以学习他们。</p>
+<p>以下我们会用比较正式的 Refer 语言教会你一些基本的 Git 知识。</p>
+<p>同时，如果你觉得本教程有难度，可以也了解更加接地气的：<a href="https://whucodingandopen.github.io/whucao/tech/git.html">WHUCAO Git Refer</a> 版本。</p>
+<h1 id="2-git-的安装">2. Git 的安装</h1>
+<p>打开 Git 的官网：<a href="https://git-scm.com/">Git</a>。找到 <code>Download for Windows</code> 然后点击，选中 <code>64-bit Git for Windows Setup</code> 下载并安装。</p>
+<p>在接下来的页面中，依次选择你需要的必要项以完成安装，以下给你可能需要更改的地方：</p>
+<ol>
+<li><strong>Choosing the default editor used by Git</strong>：推荐选择 Use Visual Studio Code as Git's default editor。</li>
+</ol>
+<p>除以上说明外，其余你均可以选择 <strong>默认选项</strong>。</p>
+<h1 id="3-git-的基本操作">3. Git 的基本操作</h1>
+<p>假设我们在 D 盘的 <code>testGit</code> 文件夹中。</p>
+<p>右键文件夹任意空白处，选择菜单的从此处打开终端。</p>
+<p>Tips: 终端可以理解为一个黑盒，像其中输入指令，计算机根据指令执行对应的更改然后输出给用户（或者输出空，也就是没有输出）。</p>
+<p>我们假设你的 testGit 文件夹中是这个样子</p>
+<div class="highlight"><pre><span></span><code><span class="w">    </span>Directory:<span class="w"> </span>D:<span class="se">\t</span>estGit
+
+Mode<span class="w">                 </span>LastWriteTime<span class="w">         </span>Length<span class="w"> </span>Name
+----<span class="w">                 </span>-------------<span class="w">         </span>------<span class="w"> </span>----
+-a---<span class="w">            </span><span class="m">2023</span>/7/4<span class="w">    </span><span class="m">11</span>:43<span class="w">              </span><span class="m">0</span><span class="w"> </span><span class="m">123</span>.txt
+-a---<span class="w">            </span><span class="m">2023</span>/7/4<span class="w">    </span><span class="m">11</span>:43<span class="w">              </span><span class="m">0</span><span class="w"> </span><span class="m">123456</span>.txt
+</code></pre></div>
+<h2 id="31-建立-git-仓库">3.1 建立 Git 仓库</h2>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>init
+</code></pre></div>
+<p>此命令会在你的目录下面初始化 Git 仓库。</p>
+<p>输入后，你会看到：</p>
+<div class="highlight"><pre><span></span><code>Initialized<span class="w"> </span>empty<span class="w"> </span>Git<span class="w"> </span>repository<span class="w"> </span><span class="k">in</span><span class="w"> </span>D:/testGit/.git/
+</code></pre></div>
+<p>PS：你可能会见到：</p>
+<div class="highlight"><pre><span></span><code>hint:<span class="w"> </span>Using<span class="w"> </span><span class="s1">&#39;master&#39;</span><span class="w"> </span>as<span class="w"> </span>the<span class="w"> </span>name<span class="w"> </span><span class="k">for</span><span class="w"> </span>the<span class="w"> </span>initial<span class="w"> </span>branch.<span class="w"> </span>This<span class="w"> </span>default<span class="w"> </span>branch<span class="w"> </span>name
+hint:<span class="w"> </span>is<span class="w"> </span>subject<span class="w"> </span>to<span class="w"> </span>change.<span class="w"> </span>To<span class="w"> </span>configure<span class="w"> </span>the<span class="w"> </span>initial<span class="w"> </span>branch<span class="w"> </span>name<span class="w"> </span>to<span class="w"> </span>use<span class="w"> </span><span class="k">in</span><span class="w"> </span>all
+hint:<span class="w"> </span>of<span class="w"> </span>your<span class="w"> </span>new<span class="w"> </span>repositories,<span class="w"> </span>which<span class="w"> </span>will<span class="w"> </span>suppress<span class="w"> </span>this<span class="w"> </span>warning,<span class="w"> </span>call:
+hint:
+hint:<span class="w">   </span>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>init.defaultBranch<span class="w"> </span>&lt;name&gt;
+hint:
+hint:<span class="w"> </span>Names<span class="w"> </span>commonly<span class="w"> </span>chosen<span class="w"> </span>instead<span class="w"> </span>of<span class="w"> </span><span class="s1">&#39;master&#39;</span><span class="w"> </span>are<span class="w"> </span><span class="s1">&#39;main&#39;</span>,<span class="w"> </span><span class="s1">&#39;trunk&#39;</span><span class="w"> </span>and
+hint:<span class="w"> </span><span class="s1">&#39;development&#39;</span>.<span class="w"> </span>The<span class="w"> </span>just-created<span class="w"> </span>branch<span class="w"> </span>can<span class="w"> </span>be<span class="w"> </span>renamed<span class="w"> </span>via<span class="w"> </span>this<span class="w"> </span>command:
+hint:
+hint:<span class="w">   </span>git<span class="w"> </span>branch<span class="w"> </span>-m<span class="w"> </span>&lt;name&gt;
+Initialized<span class="w"> </span>empty<span class="w"> </span>Git<span class="w"> </span>repository<span class="w"> </span><span class="k">in</span><span class="w"> </span>D:/testGit/.git/
+</code></pre></div>
+<p>值得注意的是，黄色字段是说明提示，并非报错，大意是提示你默认的分支名是 master，你可以通过他提及的命令修改默认分支名。</p>
+<h1 id="32-git-基本操作">3.2 Git 基本操作</h1>
+<p>本节我们会说明如何让 Git 追踪某个文件</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span><span class="o">[</span>filename<span class="o">]</span>
+</code></pre></div>
+<p>例如，我们可以输入：</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span><span class="m">123</span>.txt
+</code></pre></div>
+<p>这表示我们想让 Git 追踪我们 123.txt 文件的变动。</p>
+<p>如果有很多文件，我们不想一个一个添加的话，可以使用：</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>.
+</code></pre></div>
+<p>这表示我们将整个目录的所有文件（含文件夹以及文件夹的子文件）都让 Git 所追踪。</p>
+<p>追踪后，我们对文件做的一切更改会与上一次进行比较，这称为 <strong>版本管理</strong>。</p>
+<p>此外，我们通过 commit 来标记上一个更改达到下一个更改的 <strong>过程</strong>。</p>
+<p>输入命令：</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;something&quot;</span>
+</code></pre></div>
+<p>其中，something 是你对这个过程的描述。</p>
+<p>例如，我们给出一个输入和输出：</p>
+<div class="highlight"><pre><span></span><code>PS<span class="w"> </span>D:<span class="se">\t</span>estGit&gt;<span class="w"> </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;s&quot;</span>
+<span class="o">[</span>master<span class="w"> </span><span class="o">(</span>root-commit<span class="o">)</span><span class="w"> </span>f794987<span class="o">]</span><span class="w"> </span>s
+<span class="w"> </span><span class="m">2</span><span class="w"> </span>files<span class="w"> </span>changed,<span class="w"> </span><span class="m">0</span><span class="w"> </span>insertions<span class="o">(</span>+<span class="o">)</span>,<span class="w"> </span><span class="m">0</span><span class="w"> </span>deletions<span class="o">(</span>-<span class="o">)</span>
+<span class="w"> </span>create<span class="w"> </span>mode<span class="w"> </span><span class="m">100644</span><span class="w"> </span><span class="m">123</span>.txt
+<span class="w"> </span>create<span class="w"> </span>mode<span class="w"> </span><span class="m">100644</span><span class="w"> </span><span class="m">123456</span>.txt
+</code></pre></div>
+<h1 id="33-git-的分支">3.3 Git 的分支</h1>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>branch<span class="w"> </span>-v
+</code></pre></div>
+<p>得到输出：</p>
+<div class="highlight"><pre><span></span><code>PS<span class="w"> </span>D:<span class="se">\t</span>estGit&gt;<span class="w"> </span>git<span class="w"> </span>branch<span class="w"> </span>-v
+*<span class="w"> </span>master<span class="w"> </span>f794987<span class="w"> </span>s
+</code></pre></div>
+<p>对于 <code>master f794987 s</code> 这行数据，第一个为分支名，也就是 3.1 所说的在我们没有指定分支名下，刚开始创建项目时自动的分支名，第二个我们暂时忽略，第三个就是最后一次提交的更改信息，也就是上面 3.2 我们所 commit 的 "s" </p>
+<p>PS：对于 <code>git branch -v</code> 的 <code>-v</code>，其表示的是 <code>version</code> ，也就是查看分支的版本。</p>
+<h1 id="331-分支的建立">3.3.1 分支的建立</h1>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>branch<span class="w"> </span>newBranch
+</code></pre></div>
+<p>输入后我们即可建立一个名为 <code>newBranch</code> 的分支。</p>
+<h1 id="332-切换分支">3.3.2 切换分支</h1>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>checkout<span class="w"> </span>newBranch
+</code></pre></div>
+<p>输出：</p>
+<div class="highlight"><pre><span></span><code>Switched<span class="w"> </span>to<span class="w"> </span>branch<span class="w"> </span><span class="s1">&#39;newBranch&#39;</span>
+</code></pre></div>
+<p>这表示我们进入了 <code>newBranch</code> 的分支。</p>
+<p>此时输入：</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>branch<span class="w"> </span>-v
+</code></pre></div>
+<p>会得到：</p>
+<div class="highlight"><pre><span></span><code><span class="w">  </span>master<span class="w">    </span>f794987<span class="w"> </span>s
+*<span class="w"> </span>newBranch<span class="w"> </span>f794987<span class="w"> </span>s
+</code></pre></div>
+<p>此时我们发现 newBranch 基于 master 分支，拷贝了一份到自己的分支中。并且前面被 <code>*</code> 标记，这个符号标记了我们所在的分支。</p>
+<h1 id="333-分支的作用">3.3.3 分支的作用</h1>
+<p>不同的分支让文件之间分离开来，例如我们在 newBranch 做的一切操作，在切换到 master 后将会看不见，也就是两者是独立的。</p>
+<p>例如我们添加一些文字在 123.txt 中，比如 "123456" ，然后进行提交更改：</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>.
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;s2&quot;</span>
+</code></pre></div>
+<p>得到输出：</p>
+<div class="highlight"><pre><span></span><code><span class="o">[</span>newBranch<span class="w"> </span>b387d28<span class="o">]</span><span class="w"> </span>s2
+<span class="w"> </span><span class="m">1</span><span class="w"> </span>file<span class="w"> </span>changed,<span class="w"> </span><span class="m">1</span><span class="w"> </span>insertion<span class="o">(</span>+<span class="o">)</span>
+</code></pre></div>
+<p>然后我们切换到主分支：</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>checkout<span class="w"> </span>master
+</code></pre></div>
+<p>我们会发现我们添加的文字不见了！这就是分支之间文件是隔离的。</p>
+<h1 id="334-分支合并">3.3.4 分支合并</h1>
+<p>有时候我们在其他分支所做的更改想要合并到另一个分支中，可以使用：</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>merge<span class="w"> </span><span class="o">[</span>branch-name<span class="o">]</span>
+</code></pre></div>
+<p>例如：</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>merge<span class="w"> </span>newBranch
+</code></pre></div>
+<p>得到输出：</p>
+<div class="highlight"><pre><span></span><code>Updating<span class="w"> </span>f794987..b387d28
+Fast-forward
+<span class="w"> </span><span class="m">123</span>.txt<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="m">1</span><span class="w"> </span>+
+<span class="w"> </span><span class="m">1</span><span class="w"> </span>file<span class="w"> </span>changed,<span class="w"> </span><span class="m">1</span><span class="w"> </span>insertion<span class="o">(</span>+<span class="o">)</span>
+</code></pre></div>
+<p>我们再检查 123.txt，发现出现了我们之前的内容。</p>
+<h1 id="4-github-clone--push">4. GitHub Clone &amp; Push</h1>
+<p>首先打开 GitHub 的某个项目地址：<a href="https://github.com/WHU-MSC/WHUMSC2023New">武汉大学微软学生俱乐部2023年招新 (github.com)</a></p>
+<p>然后点击绿色的Code按钮，并选择 Clone-HTTPS 分页，点击复制。</p>
+<p>在任意一个文件夹打开终端，输入：</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span><span class="o">[</span>url<span class="o">]</span>
+</code></pre></div>
+<p>url即为你复制的内容：</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/WHU-MSC/WHUMSC2023New.git
+</code></pre></div>
+<p>然后进入文件夹中操作即可，在做了必要的更改并 commit 后，即可推送到 GitHub。</p>
+<p>输入：</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span><span class="o">[</span>branch-name<span class="o">]</span>
+</code></pre></div>
+<p>其中 origin 是远端仓库的别名，暂时我们就理解为 <code>origin</code> 是一个定值。</p>
+<p>branch-name为分支名，在 Github 仓库下，与 Clone 同行的左边有一个分支的图标，下拉框中的均为分支名。其中下拉框默认显示的就是你当前看到的文件所在的分支的分支名。</p>
+<p>例如，在 WHUMSC2023New 仓库中，你默认看到的分支就是 master。</p>
+<p>因此我们输入：</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>master
+</code></pre></div>
+<p>然后得到反馈：</p>
+<div class="highlight"><pre><span></span><code>Enumerating<span class="w"> </span>objects:<span class="w"> </span><span class="m">5</span>,<span class="w"> </span><span class="k">done</span>.
+Counting<span class="w"> </span>objects:<span class="w"> </span><span class="m">100</span>%<span class="w"> </span><span class="o">(</span><span class="m">5</span>/5<span class="o">)</span>,<span class="w"> </span><span class="k">done</span>.
+Delta<span class="w"> </span>compression<span class="w"> </span>using<span class="w"> </span>up<span class="w"> </span>to<span class="w"> </span><span class="m">20</span><span class="w"> </span>threads
+Compressing<span class="w"> </span>objects:<span class="w"> </span><span class="m">100</span>%<span class="w"> </span><span class="o">(</span><span class="m">2</span>/2<span class="o">)</span>,<span class="w"> </span><span class="k">done</span>.
+Writing<span class="w"> </span>objects:<span class="w"> </span><span class="m">100</span>%<span class="w"> </span><span class="o">(</span><span class="m">3</span>/3<span class="o">)</span>,<span class="w"> </span><span class="m">315</span><span class="w"> </span>bytes<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="m">157</span>.00<span class="w"> </span>KiB/s,<span class="w"> </span><span class="k">done</span>.
+Total<span class="w"> </span><span class="m">3</span><span class="w"> </span><span class="o">(</span>delta<span class="w"> </span><span class="m">0</span><span class="o">)</span>,<span class="w"> </span>reused<span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="o">(</span>delta<span class="w"> </span><span class="m">0</span><span class="o">)</span>,<span class="w"> </span>pack-reused<span class="w"> </span><span class="m">0</span>
+remote:<span class="w"> </span>Bypassed<span class="w"> </span>rule<span class="w"> </span>violations<span class="w"> </span><span class="k">for</span><span class="w"> </span>refs/heads/master:
+remote:
+remote:<span class="w"> </span>-<span class="w"> </span>Changes<span class="w"> </span>must<span class="w"> </span>be<span class="w"> </span>made<span class="w"> </span>through<span class="w"> </span>a<span class="w"> </span>pull<span class="w"> </span>request.
+remote:
+To<span class="w"> </span>github.com:WHU-MSC/WHUMSC2023New.git
+<span class="w">   </span>7409cf4..fe85e95<span class="w">  </span>master<span class="w"> </span>-&gt;<span class="w"> </span>master
+</code></pre></div>
+<p>PS：你可能无法操作，这是因为你对这个仓库没有管理权，需要通过 PR 来完成，以下将会介绍</p>
+<h1 id="5-github-fork">5. Github Fork</h1>
+<p>GitHub Fork 是 PR 的前提，他的作用是在你的账号下创建一个与 fork 仓库一模一样的仓库，而这个仓库你是具有管理权限的。</p>
+<p>我们只需要在项目界面点击 Fork ，然后点击 Create Fork 即可。</p>
+<p>在 Fork 结束后，我们会看到一模一样的项目文件。</p>
+<h1 id="6-github-pr">6. GitHub PR</h1>
+<p>我们在 Fork 后，利用相同的方式 clone ，编辑并上传文件到我们自己的 fork 后的仓库。</p>
+<p>然后在原来的项目地址中，点击 Pull requests -&gt; New Pull Request-&gt; Create pull request 即可。</p>
+<p>你会发现，这个过程可以宏观的理解为 Github 上面两个仓库的 <code>merge</code>。</p>
+<h1 id="7-结束">7. 结束</h1>
+<p>以上只是面向笔试题的基本讲解，Git 和 Github 远远不止这些功能，希望你以后可以尽情探索！</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      By WHU-MSC. Under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.suggest", "search.highlight", "navigation.tabs"], "search": "../../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
