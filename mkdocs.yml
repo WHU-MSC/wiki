@@ -43,6 +43,8 @@ nav:
     - 简介: index.md
 
   - 招新:
+    - 2026年:
+      - 笔试题: recruit/2026/theory.md
     - 2024年:
       - 欢迎: recruit/2024/index.md
       - 理论题: recruit/2024/theory.md
