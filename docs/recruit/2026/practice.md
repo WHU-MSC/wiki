@@ -19,7 +19,7 @@
 
 
 
-![阿里云百炼](image-1.png){width=85%}
+![阿里云百炼](image-1.png)
 
 
 
@@ -33,7 +33,7 @@
 
 
 
-![模型连接配置](image-9.png){width=85%}
+![模型连接配置](image-9.png)
 
 
 
@@ -47,7 +47,7 @@
 
 
 
-![模型页面](image-2.png){width=85%}
+![模型页面](image-2.png)
 
 
 
@@ -55,7 +55,7 @@
 
 
 
-![模型列表](image.png){width=85%}
+![模型列表](image.png)
 
 
 
@@ -81,7 +81,7 @@ glm-5.2
 
 
 
-![APIKey页面](image-3.png){width=85%}
+![APIKey页面](image-3.png)
 
 
 
@@ -89,19 +89,19 @@ glm-5.2
 
 
 
-![创建APIKey](image-4.png){width=85%}
+![创建APIKey](image-4.png)
 
 
 
-![创建APIKey](image-5.png){width=85%}
+![创建APIKey](image-5.png)
 
 
 
-![创建APIKey](image-6.png){width=85%}
+![创建APIKey](image-6.png)
 
 
 
-![APIKey信息](image-7.png){width=85%}
+![APIKey信息](image-7.png)
 
 
 
@@ -119,7 +119,7 @@ OpenAIAPIKey
 
 
 
-![禁用或删除APIKey](image-8.png){width=85%}
+![禁用或删除APIKey](image-8.png)
 
 
 ---
@@ -130,7 +130,7 @@ OpenAIAPIKey
 
 
 
-![BaseURL](image-10.png){width=85%}
+![BaseURL](image-10.png)
 
 
 
