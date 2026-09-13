@@ -17,11 +17,11 @@
 
 进入网站后，完成注册并登录。
 
-\vspace{0.3cm}
+
 
 ![阿里云百炼](image-1.png){width=85%}
 
-\vspace{0.6cm}
+
 
 ##2.模型连接配置
 
@@ -31,11 +31,11 @@
 -OpenAIAPIKey
 -Model
 
-\vspace{0.3cm}
+
 
 ![模型连接配置](image-9.png){width=85%}
 
-\vspace{0.6cm}
+
 
 下面分别说明三个参数的获取方式。
 
@@ -45,19 +45,19 @@
 
 进入模型相关页面。
 
-\vspace{0.3cm}
+
 
 ![模型页面](image-2.png){width=85%}
 
-\vspace{0.4cm}
+
 
 >本人很早以前使用过，已经忘记是否需要手动领取模型。如果账号中已经可以直接使用，就无需额外领取。
 
-\vspace{0.3cm}
+
 
 ![模型列表](image.png){width=85%}
 
-\vspace{0.4cm}
+
 
 页面中显示的模型名称，就是配置中的`Model`值。
 
@@ -79,31 +79,31 @@ glm-5.2
 
 进入APIKey管理页面。
 
-\vspace{0.3cm}
+
 
 ![APIKey页面](image-3.png){width=85%}
 
-\vspace{0.4cm}
+
 
 按照页面提示创建新的APIKey。
 
-\vspace{0.3cm}
+
 
 ![创建APIKey](image-4.png){width=85%}
 
-\vspace{0.4cm}
+
 
 ![创建APIKey](image-5.png){width=85%}
 
-\vspace{0.4cm}
+
 
 ![创建APIKey](image-6.png){width=85%}
 
-\vspace{0.4cm}
+
 
 ![APIKey信息](image-7.png){width=85%}
 
-\vspace{0.5cm}
+
 
 这里得到的Key，就是项目配置中需要填写的：
 
@@ -117,11 +117,10 @@ OpenAIAPIKey
 
 为了降低泄漏风险，建议在完成项目之后禁用或删除用于本次项目的APIKey。
 
-\vspace{0.3cm}
+
 
 ![禁用或删除APIKey](image-8.png){width=85%}
 
-\vspace{0.6cm}
 
 ---
 
@@ -129,11 +128,11 @@ OpenAIAPIKey
 
 进入API调用相关页面，找到OpenAI兼容接口对应的地址。
 
-\vspace{0.3cm}
+
 
 ![BaseURL](image-10.png){width=85%}
 
-\vspace{0.4cm}
+
 
 图中框选的地址就是：
 
