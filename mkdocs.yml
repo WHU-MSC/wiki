@@ -44,6 +44,7 @@ nav:
 
   - 招新:
     - 2026年:
+      - 欢迎: recruit/2026/index.md
       - 笔试题: recruit/2026/theory.md
       - 实践题: recruit/2026/practice.md
     - 2024年:
