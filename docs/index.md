@@ -12,5 +12,8 @@
 
 ## 招新
 
-- 2023 年招新 QQ 群：826491181 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=OR0sCU9sbf8DC5SwE1rH7m6TnYN8DR9Z&jump_from=webapi&authKey=icB6mSzl1Y8K7SHXkPRIQu8iifQwOUUbIvB/I+BcDBnbtNGHzANBGp3tknunBDic"><img border="0" src="./mainpage/recruiting2023/img/group.png" alt="MSC2023招新群" title="MSC2023招新群"></a>
-- 2023 年招新工作已经全部结束，谢谢关注。
+武汉大学微软学生俱乐部 2026 年招新现已启动！
+
+- [查看社团招新推文](https://mp.weixin.qq.com/s/u6K6mmLbsRL6XUyj_5wdCw)
+- 招新 QQ 群：1027049458
+- [查看 2026 年招新内容](recruit/2026/index.md)
